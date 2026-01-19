@@ -1,0 +1,59 @@
+/* Teacher image */
+
+.teacher{
+  margin: 0;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.55);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  position: relative;
+  height: 420px;
+}
+
+.teacher img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.01);
+}
+
+.teacher__cap{
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(251,250,248,.82);
+  backdrop-filter: blur(10px);
+}
+
+.teacher__name{
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.teacher__meta{
+  color: rgba(27,27,27,.70);
+  font-size: .95rem;
+}
+
+/* Google Form embed */
+.embed{
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.66);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.embed iframe{
+  width: 100%;
+  height: 880px; /* adjust if your form is longer */
+  border: 0;
+  display: block;
+}
