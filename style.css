@@ -352,20 +352,6 @@ p{ margin:0 0 12px; }
 .teacher__name{ font-family:var(--serif); font-weight:700; font-size:1.15rem; }
 .teacher__meta{ color: rgba(27,27,27,.70); font-size:.95rem; }
 
-.gallery{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap:12px;
-}
-.gallery img{
-  height: 240px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: var(--radius);
-  border:1px solid var(--border);
-  background: rgba(255,255,255,.6);
-}
-
 .pricing{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
